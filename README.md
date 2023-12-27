@@ -7,15 +7,15 @@
 
 # 주요 파일 설명
 
-1. NLP with Disaster Tweets using DistilBERT-Baseline.ipynb
+### 1. NLP with Disaster Tweets using DistilBERT-Baseline.ipynb
 
 DistilBERT를 이용하여 자연 재해 트윗을 분류할 수 있도록 설계된 파일입니다.
 해당 파일은 Kaggle 업로드 기준으로 작성되어 있습니다.
 
-2. train.csv
+### 2. train.csv
 
 학습에 필요한 자연 재해 트윗 데이터를 갖고 있습니다.
 
-3. test.csv
+### 3. test.csv
 
 평가에 필요한 자연 재해 트윗 데이터를 갖고 있습니다.
