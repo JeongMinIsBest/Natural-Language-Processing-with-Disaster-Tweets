@@ -5,8 +5,7 @@ The main projects include:
 - **Disaster Tweets Classification** (Kaggle Competition)
 - **Sentiment Analysis using NSMC (Naver Sentiment Movie Corpus)**
   
-The goal of this repository is to explore **Transformer-based fine-tuning workflows**  
-and compare implementations across **PyTorch and TensorFlow**.
+The goal of this repository is to explore **Transformer-based fine-tuning workflows** and compare implementations across **PyTorch and TensorFlow**.
 <br/>
 <br/>
 
