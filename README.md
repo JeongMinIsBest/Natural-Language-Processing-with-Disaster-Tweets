@@ -1,21 +1,94 @@
-# Natural-Language-Processing-with-Disaster-Tweets
-자연어 처리를 이용한 재해 트윗 분석 🌏
+# 🚀 Natural Language Processing with Disaster Tweets
+This repository contains **Natural Language Processing (NLP) projects** built with **deep learning language models such as BERT and DistilBERT**.
+  
+The main projects include:
+- **Disaster Tweets Classification** (Kaggle Competition)
+- **Sentiment Analysis using NSMC (Naver Sentiment Movie Corpus)**
+  
+The goal of this repository is to explore **Transformer-based fine-tuning workflows**  
+and compare implementations across **PyTorch and TensorFlow**.
+<br/>
+<br/>
 
-# Kaggle 대회 설명
+## 📂 Project Overview
+  
+### 1️⃣ Disaster Tweets Classification
+This project focuses on **binary text classification**, predicting whether a given tweet refers to a **real disaster event** or not.
+The dataset comes from Kaggle’s **“Natural Language Processing with Disaster Tweets”** competition.
+  
+#### 📁 Key Files
+- `NLP with Disaster Tweets using DistilBERT-Baseline.ipynb`  
+  - PyTorch + Hugging Face Transformers  
+  - Baseline DistilBERT fine-tuning pipeline
+  
+- `KerasNLP_starter_notebook_Disaster_Tweets.ipynb`  
+  - TensorFlow + KerasNLP implementation  
+  - DistilBERT training and evaluation
+  
+- `train.csv`, `test.csv`  
+  - Training and inference datasets provided by Kaggle
+  
+#### 🤖 Model
+- **DistilBERT** (`distilbert-base-uncased`)
+  
+#### 📈 Result
+- Validation Accuracy: **~0.83** (KerasNLP implementation)
+<br/>
 
-스마트폰과 트위터를 통해 사람들은 자신이 관차라고 있는 긴급 상황을 실시간으로 전달할 수 있게 해준다. 이 때문에 더 많은 기관들이 트위터를 이용하여 모니터링 하는 데에 관심을 보이고 있다. 실제 재난에 관한 트윗과 그렇지 않은 트윗을 예측하는 머신러닝 모델을 구축하고 10,000개의 트위터 데이터 세트를 이용하여 분류를 진행한다.
+### 2️⃣ NSMC Sentiment Analysis
+This project performs **sentiment classification (positive / negative)** on the **Naver Sentiment Movie Corpus (NSMC)**.
+The same task is implemented using **both PyTorch and TensorFlow** to compare model pipelines, training loops, and framework-specific design choices.
+  
+#### 📁 Key Files
+- `nsmc sentiment analysis/nsmc 감성 분석_파이토치.ipynb`  
+  - PyTorch-based implementation
+  
+- `nsmc sentiment analysis/nsmc 감성 분석 과제_텐서플로우.ipynb`  
+  - TensorFlow (Keras) implementation
+  
+#### 🤖 Model
+- **Multilingual BERT** (`bert-base-multilingual-cased`)
+  
+#### 📊 Dataset
+- `nsmc` dataset from the **Hugging Face `datasets` library**
+<br/>
+<br/>
 
-# 주요 파일 설명
+## 🛠 Tech Stack
+  
+- **Languages**
+  - Python
+  
+- **Deep Learning Frameworks**
+  - PyTorch
+  - TensorFlow / Keras
+  
+- **NLP Libraries**
+  - Hugging Face Transformers
+  - KerasNLP
+  - Datasets
+  
+- **Data Processing**
+  - Pandas
+  - NumPy
+  - Scikit-learn
+  
+- **Visualization**
+  - Matplotlib
+  - Seaborn
+<br/>
+<br/>
 
-### 1. NLP with Disaster Tweets using DistilBERT-Baseline.ipynb
-
-DistilBERT를 이용하여 자연 재해 트윗을 분류할 수 있도록 설계된 파일입니다.
-해당 파일은 Kaggle 업로드 기준으로 작성되어 있습니다.
-
-### 2. train.csv
-
-학습에 필요한 자연 재해 트윗 데이터를 갖고 있습니다.
-
-### 3. test.csv
-
-평가에 필요한 자연 재해 트윗 데이터를 갖고 있습니다.
+## 🚀 How to Run
+All projects are implemented as **Jupyter Notebooks (`.ipynb`)**
+- You can run them in:
+  - **Google Colab**
+  - **Local Jupyter Notebook environments**
+  
+Each notebook follows the standard NLP workflow:
+1. Data loading
+2. Preprocessing & tokenization
+3. Model fine-tuning
+4. Evaluation and analysis
+<br/>
+<br/>
