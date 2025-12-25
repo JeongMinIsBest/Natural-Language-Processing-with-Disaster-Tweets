@@ -1,5 +1,5 @@
 # 🚀 Natural Language Processing with Disaster Tweets
-This repository contains **Natural Language Processing (NLP) projects** built with **deep learning language models such as BERT and DistilBERT**.
+This repository contains **Natural Language Processing projects** built with **deep learning language models such as BERT and DistilBERT**.
   
 The main projects include:
 - **Disaster Tweets Classification** (Kaggle Competition)
