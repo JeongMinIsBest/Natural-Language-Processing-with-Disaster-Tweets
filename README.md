@@ -54,7 +54,6 @@ The same task is implemented using **both PyTorch and TensorFlow** to compare mo
 <br/>
 
 ## 🛠 Tech Stack
-  
 - **Languages**
   - Python
   
